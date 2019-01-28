@@ -1,0 +1,37 @@
+{
+  "name": "gootime-admin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "ant-design-pro": "^2.2.1",
+    "antd": "^3.13.0",
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "ramda": "^0.26.1",
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0",
+    "react-router": "^4.4.0-beta.6",
+    "react-router-dom": "^4.4.0-beta.6",
+    "react-scripts": "2.1.3",
+    "react-use": "^5.2.1",
+    "use-react-router": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.13",
+    "@types/node": "10.12.18",
+    "@types/ramda": "^0.25.47",
+    "@types/react": "^16.7.21",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
+    "node-sass": "^4.11.0",
+    "typescript": "^3.2.4",
+    "typescript-plugin-css-modules": "^1.0.5"
+  }
+}
