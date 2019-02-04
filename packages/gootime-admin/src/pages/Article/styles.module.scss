@@ -3,3 +3,21 @@
 .sider {
   min-height: 100vh;
 }
+
+.quill {
+  margin: dim(10);
+  :global(.ql-container) {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #ffffff;
+  }
+  :global(.ql-toolbar) {
+    display: block;
+    background: #eaecec;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  :global(.ql-editor) {
+    min-height: 80vh;
+  }
+}
