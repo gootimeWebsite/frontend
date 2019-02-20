@@ -1,0 +1,20 @@
+@import '../../styles/function.scss';
+
+.adminHeader {
+  height: dim(70);
+  width: 100%;
+  background: #1890ff;
+  display: inline-block;
+}
+
+.logo {
+  width: dim(128);
+  height: dim(22);
+  margin: dim(24) dim(30);
+}
+
+.avatar {
+  float: right;
+  margin: dim(19) 0;
+  color: #232323;
+}
