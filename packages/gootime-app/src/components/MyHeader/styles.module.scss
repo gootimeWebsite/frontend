@@ -1,0 +1,20 @@
+@import '../../styles/function.scss';
+
+.header {
+  height: dim(89);
+  width: 100%;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.logo {
+  width: dim(128);
+  height: dim(40);
+  margin: dim(20) dim(30);
+}
+
+.avatar {
+  float: right;
+  margin: dim(19) 0;
+  color: #232323;
+}
